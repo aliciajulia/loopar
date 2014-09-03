@@ -2,10 +2,17 @@
 
 $variable1 = "gurka";
 
-for (substr($variable1, 0,1,2,3,4)){
-    echo substr($variable1, 4,3,2,1,0);
+for ($i = strlen($variable1); $i > 0; $i--) {
+   $position = $i-1;
+   echo substr($variable1, $position, 1);
+    
 }
 
+"<p>"
+
+while () {
+    
+}
 ?>
 
 
